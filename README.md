@@ -6,6 +6,7 @@ Example made from https://linuxconfig.org/how-to-use-special-permissions-the-set
 Run the program before and after
 
 sudo chown root setuid
+
 sudo chmod 4755 setuid
 
 and you will see the difference.
