@@ -5,12 +5,12 @@ Example made from https://linuxconfig.org/how-to-use-special-permissions-the-set
 
 Run the program before and after
 
-sudo chown root setuid
+sudo chown root uid
 
-sudo chmod 4755 setuid
+sudo chmod 4755 uid
 
 and you will see the difference.
 
 
 You compile the program with 
-gcc -o uid sels uid.c
+gcc -o uid  uid.c
